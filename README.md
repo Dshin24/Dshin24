@@ -1,5 +1,6 @@
 ### Hi there 👋
-
+"Coding experience"
+A few survey courses. Nothing all too in-depth
 <!--
 **Dshin24/Dshin24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
