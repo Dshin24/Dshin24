@@ -1,6 +1,13 @@
 ### Hi there 👋
-"Coding experience"
-A few survey courses. Nothing all too in-depth
+1. Previous coding experience
+- A few survey courses. Nothing all too-in-depth
+2. Reasons for taking this class
+- To become more familiar with the realm of coding
+3. Other interests (academic or otherwise)
+- Finance: evaluation of the stock market
+4. Goals you have for this class and/or projects you'd like to complete
+- Programming a video game 
+
 <!--
 **Dshin24/Dshin24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
