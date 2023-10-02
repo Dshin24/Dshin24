@@ -16,8 +16,8 @@ My recursive art project is based on the idea of Sierpiński's triangles
   - Realized the importance of modular coding; it not only makes code readable but more manageable
   - Grasped the essence of recursion; it's like solving a puzzle, breaking it into smaller pieces to see the whole picture more clearly
 2. Potential for enhancement (things I would incorporate/refine)
-  -Implement full user interaction: the code could prompt the user more interactively, possibly asking for different sizes or points to draw the triangle. It will allow users to create more customized shapes.
-  -Enhance error handling: The code can be made more robust by adding more appropriate error-handling mechanisms, for instance, checking if the user input is a valid integer 
+  - Implement full user interaction: the code could prompt the user more interactively, possibly asking for different sizes or points to draw the triangle. It will allow users to create more customized shapes.
+  - Enhance error handling: The code can be made more robust by adding more appropriate error-handling mechanisms, for instance, checking if the user input is a valid integer 
     
 <!--
 **Dshin24/Dshin24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
