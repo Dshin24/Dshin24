@@ -18,7 +18,12 @@ My recursive art project is based on the idea of Sierpiński's triangles
 2. Potential for enhancement (things I would incorporate/refine)
   - Implement full user interaction: the code could prompt the user more interactively, possibly asking for different sizes or points to draw the triangle. It will allow users to create more customized shapes.
   - Enhance error handling: The code can be made more robust by adding more appropriate error-handling mechanisms, for instance, checking if the user input is a valid integer 
-    
+
+IDP #1 (Connect 4 10/1)
+
+Developing this project involved multiple key steps, with the core goal of creating an interactive, grid-based console application. Below is a detailed documentation of the developmental process. 
+
+
 <!--
 **Dshin24/Dshin24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
