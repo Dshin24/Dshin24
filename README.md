@@ -22,7 +22,23 @@ My recursive art project is based on the idea of Sierpiński's triangles
 IDP #1 (Connect 4 10/1)
 
 Developing this project involved multiple key steps, with the core goal of creating an interactive, grid-based console application. Below is a detailed documentation of the developmental process.  
-1. 
+1. Initialization and Setup:
+    - A 2D char array 'grid' of size [6][7] was initialized to represent the grid structure.
+    - A nested loop was employed to fill the grid with '-' to represent empty spaces and to print the initial state of the grid
+2. User interaction:
+    - A while loop was implemented to continually accept user inputs, allowing perpetual interaction
+    - Utilizing 'Scanner', the program prompts the user to input an integer corresponding to the grid column where they wish to place an 'X'.
+3. Grid Manipulation:
+    - For the selected column, the program traverses each row to determine the appropriate position for 'X', ensuring it's placed in the lowest available row within the chosen column.
+    - Special cases, such as when a column is fully occupied or when placing 'X' in the last row, are handled with conditional statements to avoid errors.
+4. Grid update and Display:
+    - After placing 'X' based on the user's input, the grid is updated.
+    - The updated grid is then printed to the console, giving users a visual representation of the current state of the grid.
+    - The process repeates indefinetly due to the enclosing while(true) loop, allowing users to continue placing 'X' in the grid
+5. Debugging and Validation:
+    - Throughout the development, several print statements were employed to print variable values and intermediate states, aiding in debugging and validating the program logic.
+    - These print statements helped in confirming the proper functioning of the user input, grid updates, and special condition handling
+  
 
 
 <!--
