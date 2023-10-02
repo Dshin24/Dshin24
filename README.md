@@ -29,10 +29,12 @@ My recursive art project is based on the idea of Sierpiński's triangles
     - The function incorporated three calls to 'drawLine' to create the triangles and three recursive calls to itself to generate the nested triangles.
  5. Drawing and Coloring:
     - The 'drawLine' function was implemented to color the pixels from the start point to the end point black and fill the resulting triangle white
-    - This function was paramount in visually representing the triangles, ensuring the clarity and accuracy of the shapes drawn. 
+    - This function was paramount in visually representing the triangles, ensuring the clarity and accuracy of the shapes drawn.
+    
 Reflection on learning (things I'm proud of /takeaways)
   - Realized the importance of modular coding; it not only makes code readable but more manageable
   - Grasped the essence of recursion; it's like solving a puzzle, breaking it into smaller pieces to see the whole picture more clearly
+
 Potential for enhancement (things I would incorporate/refine)
   - Implement full user interaction: the code could prompt the user more interactively, possibly asking for different sizes or points to draw the triangle. It will allow users to create more customized shapes.
   - Enhance error handling: The code can be made more robust by adding more appropriate error-handling mechanisms, for instance, checking if the user input is a valid integer 
