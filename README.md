@@ -21,7 +21,8 @@ My recursive art project is based on the idea of Sierpiński's triangles
 
 IDP #1 (Connect 4 10/1)
 
-Developing this project involved multiple key steps, with the core goal of creating an interactive, grid-based console application. Below is a detailed documentation of the developmental process. 
+Developing this project involved multiple key steps, with the core goal of creating an interactive, grid-based console application. Below is a detailed documentation of the developmental process.  
+1. 
 
 
 <!--
