@@ -10,7 +10,7 @@
 
 **Recursive Art (10/1)**
 My recursive art project is based on the idea of Sierpiński's triangles
- The project details a filled-in black triangle that, from its initial level change from 0 to 1, adds a white triangle (inscribed and connected by the larger triangle's
+ The project details a filled-in blue triangle that, from its initial level change from 0 to 1, adds a white triangle (inscribed and connected by the larger triangle's
  midpoints). Each white triangle from that point forward is drawn outside the interior white triangle's boundaries to each specific midpoint.
 
  Project development: The project development commenced with the ideation of a visually engaging program to recursively create triangle shapes. Below is a step-by-step documentation of the developmental process. 
