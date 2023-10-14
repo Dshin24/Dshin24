@@ -59,6 +59,43 @@ Developing this project involved multiple key steps, with the core goal of creat
     - Throughout the development, several print statements were employed to print variable values and intermediate states, aiding in debugging and validating the program logic.
     - These print statements helped in confirming the proper functioning of the user input, grid updates, and special condition handling
   
+**Password generator (Project 11)**
+
+Documentation of Process
+1. The application preloads a word list
+2. On setup, it initializes the word list and prepares the canvas for drawing
+3. When a key is pressed, a random dice roll is simulated
+4. After 5 dice rolls, the sequence of numbers corresponds to an index in the word list, fetching a word
+5. These words are then displayed on the screen
+
+Documentation of Code: 
+Variables: 
+'strings': An array to load words from "eff_large_wordlist.txt"
+'wordList': An array to store words after processing 
+'dieRolls': Stores the dice rolls
+'listOfWords': List of generated words from dice rolls
+'passphrase': Storws the current passphrase 
+'dieFaces': Array reprensenting die faces
+
+Functions
+'preload ()': Preloads the word list
+'setup ()': Initializes canvas and word list
+'draw ()': Draws the canvas, including dice rolls and passphrase
+'keyPressed ()': Handles the event when a key is pressed, generating a dice roll and updating the passphrase
+'getWordForKey (key)': Returns word for a specific dice roll sequence 
+'isValidKey (key)': Validates if a key (dice roll sequence) is valid 
+'initializeWordList ()': Initializes the word list
+'loadStringIntoList ()': Processes and load strings into word list 
+
+Two things I'm proud of:
+1. Efficiency and Key Validation: The 'isValidKey' fuction ensures that only valid dice roll sequences are used. This guarantees the reliability of the passphrase generation.
+2. Memory management: After the word list is loaded and processed, the 'strings' array is set to null to free up memory
+
+Two Areas for Improvement
+1. Hard-Coded Values: There are hard-coded values in the draw fucntion for positioning text. These could be defined as constants or variables for better readbility and flexibility.
+2. Debugging Logs: There are console.log statements (like "Asss" and "hi") which might have been used for debugging. It's better to remove or comment them out in the final version of the code. 
+
+  
 
 
 <!--
